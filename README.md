@@ -1,5 +1,7 @@
 # Blog site generator
 
+> Project is WIP
+
 This is a **Web Blog site Generator** written in C, integrate with pandoc CLI. 
 
 To use this, make sure you installed pandoc CLI.
