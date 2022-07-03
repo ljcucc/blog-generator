@@ -13,10 +13,14 @@ To use this, make sure you installed pandoc CLI.
 make compile
 
 # Run to build your site
-./wbg [input-path] [output-path]
+./wbg [input-path] [output-path] [template]
 
 # for example
-./wbg '/Users/ljcucc/path/to/md' '/Users/ljcucc/path/to/public'
+./wbg '/Users/ljcucc/path/to/md' '/Users/ljcucc/path/to/public' '/Users/ljcucc/path/to/src'
+
+# or run it by using make run
+
+make run
 ```
 
 # Credits
