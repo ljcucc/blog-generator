@@ -4,6 +4,8 @@
 
 This is a **Web Blog site Generator** written in C, integrate with pandoc CLI. 
 
+# Get Started
+
 To use this, make sure you installed pandoc CLI.
 
 ```
@@ -16,3 +18,7 @@ make compile
 # for example
 ./wbg '/Users/ljcucc/path/to/md' '/Users/ljcucc/path/to/public'
 ```
+
+# Credits
+
+* cJSON: https://github.com/DaveGamble/cJSON

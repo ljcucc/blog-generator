@@ -1,11 +1,8 @@
 #include <stdio.h>
+#include <dirent.h>
 #include <string.h>
 
-#include <dirent.h>
-#include <unistd.h>
-
 #include "util.h"
-#include "config.h"
 
 // string replace function same as in js: str_obj.replace(substr, replace);
 void str_replace(char *source, char *substr, char *replace)

@@ -7,7 +7,7 @@
 
 #define SUCCESS 0
 #define FAIL 1
-#define MAX_TXT_LEN 10000
+#define MAX_TXT_LEN 100000
 
 static const char OUTPUT_FOLDER[FILENAME_MAX] =  "./public/";
 static const char INPUT_FOLDER[FILENAME_MAX] =  "./md/";
